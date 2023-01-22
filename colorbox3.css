@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(150, 56, 29);
+    border: 35px solid darkblue;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    height: 600px;
+}
+.up{
+    display: flex;
+    height: 50%;
+}
+.up1{
+    width: 50%;
+    background-color: rgba(78, 30, 30, 0.852);  
+}
+.up2{
+    width: 50%;
+    background-color:rgb(255, 69, 0) ;
+}
+.down{
+    display: flex;
+    height: 50%;
+}
+.down1{
+    width:50%;
+    background-color: green;
+}
+.down2{
+    width:50%;
+    background-color: rgb(27, 27, 106);
+}
+.footer{
+    width:100%;
+    height:200px;
+    background-color:rgb(138, 13, 99) ;
+}

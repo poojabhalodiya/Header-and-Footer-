@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.SubLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: absolute;
+    width: 70%;
+   left: 15%;
+   top: 11px;
+}
+
+.Sub1 p{
+   font-size: 20px;
+   color: white;
+   font-weight: 600;
+}
+
+.Sub2 input{
+   padding: 10px 20px;
+   background-color: rgba(255, 255, 255, 0.705);
+   color: white;
+   border: none;
+   font-size: 18px;
+   border-radius: 10px;
+}
+
+.Sub2 input::placeholder{
+    color: white;
+}
+
+.Sub2 input:focus{
+    outline: none;
+}
+
+.Sub2 label{
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.footer-wrap{
+    background-color: rgba(1, 1, 56, 0.851);
+    color: white;
+    padding: 30px 0px 15px 0px;
+    margin-top: 40px;
+}
+
+.footer-wrap2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section li{
+    list-style: none;
+}
+
+.head{
+    margin-bottom: 15px;
+}
+
+.ListItem a{
+    text-decoration: none;
+    color: white;
+}
+
+.ListItem{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.footer-Wrap1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.div1{
+   font-size: 60px;
+   font-weight: 700;
+}
+
+.div2 li{
+    display: inline-block;
+}
+
+.logoImgInFooter img{
+    width: 50px;
+    height: 50px;
+}
