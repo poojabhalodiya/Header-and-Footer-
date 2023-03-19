@@ -1,0 +1,275 @@
+*{
+    margin:0 ;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Web_Footer{
+    background-color: black;
+    color: white;
+    padding:30px 0px 15px 0px;
+    margin-top: 30px;
+}
+
+.SubDivFooter{
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    justify-content: center;
+    display: flex;
+}
+
+.Web_Footer1{
+    display:inline-block;
+    justify-content: space-between;
+    padding: 30px;
+}
+.Web_Footer1 li{
+    display:inline-block;
+    justify-content: center;
+}
+.logoimageinfooter img{
+    width: 30px;
+    height: 30px;
+    margin-left: 3opx;
+    margin-right:0;
+}
+.Web_Footer2{
+    display:inline-block;
+    padding:20px;
+    justify-content:center;
+
+}
+.Web_Footer2 li{
+    display:inline-block;
+}
+
+.SocialMIcon{
+    justify-content: center;
+}
+
+
+@media screen and (min-device-width:350px) and ( max-device-width: 550px ){
+ 
+
+    *{
+        margin:0 ;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Web_Footer{
+        background-color: black;
+        color: white;
+        padding:30px 0px 15px 0px;
+        margin-top: 30px;
+    }
+    
+    .SubDivFooter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 51%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .Web_Footer1{
+        display:inline-block;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .Web_Footer1 li{
+        display:inline-block;
+        justify-content: center;
+    }
+    .logoimageinfooter img{
+        width: 30px;
+        height: 30px;
+        margin-left: 3opx;
+        margin-right:0;
+    }
+    .Web_Footer2{
+        display:inline-block;
+        padding:20px;
+        justify-content:center;
+    
+    }
+    .Web_Footer2 li{
+        display:inline-block;
+    }
+    
+    .SocialMIcon{
+        justify-content: center;
+    }
+    
+    
+
+}
+
+
+@media only screen and (min-device-width:551px) and ( max-device-width: 750px ){
+ 
+
+    *{
+        margin:0 ;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Web_Footer{
+        background-color: black;
+        color: white;
+        padding:30px 0px 15px 0px;
+        margin-top: 30px;
+    }
+    
+    .SubDivFooter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 51%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .Web_Footer1{
+        display:inline-block;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .Web_Footer1 li{
+        display:inline-block;
+        justify-content: center;
+    }
+    .logoimageinfooter img{
+        width: 30px;
+        height: 30px;
+        margin-left: 3opx;
+        margin-right:0;
+    }
+    .Web_Footer2{
+        display:inline-block;
+        padding:20px;
+        justify-content:center;
+    
+    }
+    .Web_Footer2 li{
+        display:inline-block;
+    }
+    
+    .SocialMIcon{
+        justify-content: center;
+    }
+    
+    
+
+}
+
+
+@media only screen and (min-device-width:751px) and ( max-device-width: 1050px ){
+
+
+    *{
+        margin:0 ;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Web_Footer{
+        background-color: black;
+        color: white;
+        padding:30px 0px 15px 0px;
+        margin-top: 30px;
+    }
+    
+    .SubDivFooter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 51%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .Web_Footer1{
+        display:inline-block;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .Web_Footer1 li{
+        display:inline-block;
+        justify-content: center;
+    }
+    .logoimageinfooter img{
+        width: 30px;
+        height: 30px;
+        margin-left: 3opx;
+        margin-right:0;
+    }
+    .Web_Footer2{
+        display:inline-block;
+        padding:20px;
+        justify-content:center;
+    
+    }
+    .Web_Footer2 li{
+        display:inline-block;
+    }
+    
+    .SocialMIcon{
+        justify-content: center;
+    }
+    
+    
+}
+
+
+@media only screen and (min-device-width:1051px) and ( max-device-width: 1750px ){
+
+    *{
+        margin:0 ;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Web_Footer{
+        background-color: black;
+        color: white;
+        padding:30px 0px 15px 0px;
+        margin-top: 30px;
+    }
+    
+    .SubDivFooter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 51%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .Web_Footer1{
+        display:inline-block;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .Web_Footer1 li{
+        display:inline-block;
+        justify-content: center;
+    }
+    .logoimageinfooter img{
+        width: 30px;
+        height: 30px;
+        margin-left: 3opx;
+        margin-right:0;
+    }
+    .Web_Footer2{
+        display:inline-block;
+        padding:20px;
+        justify-content:center;
+    
+    }
+    .Web_Footer2 li{
+        display:inline-block;
+    }
+    
+    .SocialMIcon{
+        justify-content: center;
+    }
+    
+    
+
+}
+

@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainHeader{
+    width:100%;
+    padding-top:0%;
+    padding-bottom:0%;
+    display: flex;
+    justify-content:space-between; 
+    box-shadow: 3px 3px 10px rgb(123, 124, 125);
+    background-color: rgba(213, 218, 223, 0.942);
+    z-index:1;
+}
+
+.humberMenuHeader{
+    display: none;
+}
+
+.ul1{
+    list-style-type: none;
+}
+.ul1 li{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size:20px;
+}
+.logo img{
+    width: 120px;
+    height:90px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    
+
+}
+.navitem{
+    padding:15px;
+}
+.navitem:hover{
+    box-shadow: 5px 5px 10px #f1eff0;
+}
+.navitem a{
+   text-decoration: none;
+   color: black;
+}
+.ul2{
+    list-style-type: none;
+}
+.ul2 li{
+    display: inline-block;
+    font-weight: 800;
+    font-size:20px;
+    font-style: italic;
+} 
+.div2{
+    padding-top:25px;
+    padding-bottom:10px;
+}
+
+@media screen and (min-device-width:350px) and ( max-device-width: 550px ){
+    
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .mainHeader{
+        width:100%;
+        padding-top:0%;
+        padding-bottom:0%;
+        display: flex;
+        justify-content:space-between; 
+        box-shadow: 3px 3px 10px rgb(123, 124, 125);
+        background-color: rgba(213, 218, 223, 0.942);
+        z-index:1;
+    }
+    
+    .humberMenuHeader{
+        display: block;
+    }
+
+    .mainHeader{
+        display: none;
+    }
+    .ul1{
+        list-style-type: none;
+    }
+    .ul1 li{
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 700;
+        font-size:20px;
+    }
+    .logo img{
+        width: 120px;
+        height:90px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        
+    
+    }
+    .navitem{
+        padding:15px;
+    }
+    .navitem:hover{
+        box-shadow: 5px 5px 10px #f1eff0;
+    }
+    .navitem a{
+       text-decoration: none;
+       color: black;
+    }
+    .ul2{
+        list-style-type: none;
+    }
+    .ul2 li{
+        display: inline-block;
+        font-weight: 800;
+        font-size:20px;
+        font-style: italic;
+    } 
+    .div2{
+        padding-top:25px;
+        padding-bottom:10px;
+    }
+
+}
+
+@media only screen and (min-device-width:551px) and ( max-device-width: 750px ){
+
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .mainHeader{
+        width:100%;
+        padding-top:0%;
+        padding-bottom:0%;
+        display: flex;
+        justify-content:space-between; 
+        box-shadow: 3px 3px 10px rgb(123, 124, 125);
+        background-color: rgba(213, 218, 223, 0.942);
+        z-index:1;
+    }
+    
+    .humberMenuHeader{
+        display: none;
+    }
+    
+    .ul1{
+        list-style-type: none;
+    }
+    .ul1 li{
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 700;
+        font-size:20px;
+    }
+    .logo img{
+        width: 120px;
+        height:90px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        
+    
+    }
+    .navitem{
+        padding:15px;
+    }
+    .navitem:hover{
+        box-shadow: 5px 5px 10px #f1eff0;
+    }
+    .navitem a{
+       text-decoration: none;
+       color: black;
+    }
+    .ul2{
+        list-style-type: none;
+    }
+    .ul2 li{
+        display: inline-block;
+        font-weight: 800;
+        font-size:20px;
+        font-style: italic;
+    } 
+    .div2{
+        padding-top:25px;
+        padding-bottom:10px;
+    }
+    
+
+}
+
+@media only screen and (min-device-width:751px) and ( max-device-width: 1050px ){
+
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .mainHeader{
+        width:100%;
+        padding-top:0%;
+        padding-bottom:0%;
+        display: flex;
+        justify-content:space-between; 
+        box-shadow: 3px 3px 10px rgb(123, 124, 125);
+        background-color: rgba(213, 218, 223, 0.942);
+        z-index:1;
+    }
+    
+    .humberMenuHeader{
+        display: none;
+    }
+    
+    .ul1{
+        list-style-type: none;
+    }
+    .ul1 li{
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 700;
+        font-size:20px;
+    }
+    .logo img{
+        width: 120px;
+        height:90px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        
+    
+    }
+    .navitem{
+        padding:15px;
+    }
+    .navitem:hover{
+        box-shadow: 5px 5px 10px #f1eff0;
+    }
+    .navitem a{
+       text-decoration: none;
+       color: black;
+    }
+    .ul2{
+        list-style-type: none;
+    }
+    .ul2 li{
+        display: inline-block;
+        font-weight: 800;
+        font-size:20px;
+        font-style: italic;
+    } 
+    .div2{
+        padding-top:25px;
+        padding-bottom:10px;
+    }
+    
+
+
+}
+
+@media only screen and (min-device-width:1051px) and ( max-device-width: 1750px ){
+
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .mainHeader{
+        width:100%;
+        padding-top:0%;
+        padding-bottom:0%;
+        display: flex;
+        justify-content:space-between; 
+        box-shadow: 3px 3px 10px rgb(123, 124, 125);
+        background-color: rgba(213, 218, 223, 0.942);
+        z-index:1;
+    }
+    
+    .humberMenuHeader{
+        display: none;
+    }
+    
+    .ul1{
+        list-style-type: none;
+    }
+    .ul1 li{
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 700;
+        font-size:20px;
+    }
+    .logo img{
+        width: 120px;
+        height:90px;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        
+    
+    }
+    .navitem{
+        padding:15px;
+    }
+    .navitem:hover{
+        box-shadow: 5px 5px 10px #f1eff0;
+    }
+    .navitem a{
+       text-decoration: none;
+       color: black;
+    }
+    .ul2{
+        list-style-type: none;
+    }
+    .ul2 li{
+        display: inline-block;
+        font-weight: 800;
+        font-size:20px;
+        font-style: italic;
+    } 
+    .div2{
+        padding-top:25px;
+        padding-bottom:10px;
+    }
+    
+
+    
+}

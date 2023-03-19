@@ -1,0 +1,1359 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.painting{
+    height: 750px;
+}
+
+.HomeSlider{
+    z-index: -1 !important;
+}
+
+.img1HomeSlider, .img2HomeSlider , .img3HomeSlider{
+    height: 800px;
+    width: 100%;
+}
+
+.h1_Slider{
+    margin-bottom: 400px;
+}
+
+
+.h1_Slider1{
+    font-size: 80px;
+    color: darkblue;
+    text-shadow: 3px 3px 15px rgb(39, 37, 37);
+    background-color: rgba(255, 255, 255, 0.468);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    animation-name: Slider1Home;
+    animation-duration: 3s;
+}
+
+@keyframes Slider1Home {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.p1_sliderHome{
+    font-size: 55px;
+    animation-name: Slider1Home;
+    animation-duration: 3s;
+}
+
+.h1_Slider2{
+    font-size: 70px;
+    color: rgb(158, 35, 92);
+    text-shadow: 3px 3px 15px rgb(39, 37, 37);
+    background-color: rgba(255, 255, 255, 0.468);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    animation-name: Slider2Home;
+    animation-duration: 3s;
+}
+
+@keyframes Slider2Home {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.p2_sliderHome{
+    font-size: 55px;
+    animation-name: Slider2Home;
+    animation-duration: 3s;
+}
+
+.h1_Slider3{
+    font-size: 55px;
+    color:rgb(53, 9, 215);
+    text-shadow: 3px 3px 15px rgb(39, 37, 37);
+    background-color: rgb(233, 228, 232);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    animation-name: Slider3Home;
+    animation-duration: 3s;
+}
+
+@keyframes Slider3Home {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.p3_sliderHome{
+    font-size: 55px;
+    animation-name: Slider3Home;
+    animation-duration: 3s;
+}
+p{
+    font-size:30px;
+}
+
+.WebComport{
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    background-color: orangered;
+    padding: 2px;
+    color:white ;
+    margin-left:auto;
+    /* padding-left: 200px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 70px;
+}
+
+.ReadMore_btn{
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: none;
+    color: darkgoldenrod;
+    margin-left: 30px;
+}
+
+.ReadMore_btn:hover{
+background-color: lightyellow;
+color: orange;
+}
+
+.WebComportImg1{
+    box-shadow: 3px 3px 25px rgb(55, 55, 55);
+    height: 340px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.Web_descriptive{
+    display:inline-block;
+    padding: 30px;
+}
+.Web_descriptive1{
+    font-size: 50px;
+    margin-top:10px;
+    margin-left: 15px;
+}
+.Web_descriptive2{
+    font-size:20px;
+    padding:30px ;
+}
+.Contract{
+    /* display:flex; */
+    height:270px;
+    /* width:300px; */
+    margin-top:35px ;
+    /* padding-left:70px ; */
+}
+
+
+.HomeHeader{
+    display: flex;
+    background-color:rgb(138, 155, 173) ;
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.HomeHeader1{
+    margin-top: 10px;
+    /* height:400px; */
+    /* width:600px; */
+
+}
+
+.HomeHeaderImg1{
+    height: 465px;
+    width: 555px;
+    margin-left:-95px ;
+    margin-top:30px ;
+    border:3px solid black;
+    box-shadow:3px 3px 25px rgb(55, 55, 55) ;
+}
+
+.HomeHeader2{
+   margin-top: 50px ;
+}
+.SubDivHeader{
+    font-size: 70px;
+    display: flex;
+    margin-left: 170px;
+    color: black;
+    text-shadow: 5px 5px 15px whitesmoke;
+}
+.SubDivHeader1{
+    margin-left:10pxpx ;
+    font-size: 35px;
+    color: black;
+    
+}
+
+.Latest_Projects{
+    display:flex;
+    flex-direction: column;
+    margin-top:40px ;
+    background-color: lightblue;
+}
+
+.BtnSeeAll{
+   padding: 15px 25px;
+   margin:25px ;
+   margin-left:180px ;
+   margin-bottom:80px ;
+   border-radius: 15%;
+   font-size: 25px;
+   border:none ;
+   color:black;
+   background-color: mistyrose;
+}
+.BtnSeeAll:hover{
+    color: navy;
+    background-color: hotpink;
+}
+
+.LProject{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px 10px 20px black;
+    font-size:65px ;
+    /* margin-left:10px ; */
+    padding-top:30px ;
+    padding-left: 30px;
+}
+
+.LProjectDiv1, .LProjectDiv2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Projectimg1, .Projectimg2, .Projectimg3, .Projectimg4{
+    width:550px ;
+    height:450px ;
+    /* padding: 50px; */
+    margin: 50px;
+    border: 2px solid gray;
+    box-shadow: 3px 3px 15px black;
+}
+
+
+@media screen and (min-device-width:350px) and ( max-device-width: 550px ){
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .painting{
+        height: 750px;
+    }
+    
+    .HomeSlider{
+        z-index: -1 !important;
+    }
+    
+    .img1HomeSlider, .img2HomeSlider , .img3HomeSlider{
+        height: 800px;
+        width: 100%;
+    }
+    
+    .h1_Slider{
+        margin-bottom: 400px;
+    }
+    
+    
+    .h1_Slider1{
+
+        font-size: 56px;
+        color: darkblue;
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider1Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p1_sliderHome{
+        font-size: 55px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider2{
+
+        font-size: 50px;
+        color: rgb(158, 35, 92);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider2Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p2_sliderHome{
+        font-size: 55px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider3{
+
+        font-size: 38px;
+        color:rgb(53, 9, 215);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgb(233, 228, 232);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider3Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p3_sliderHome{
+        font-size: 55px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    p{
+        font-size:30px;
+    }
+    
+    .WebComport{
+        display: flex;
+        /* height: 400px; */
+        width: 100%;
+        background-color: orangered;
+        padding: 2px;
+        color:white ;
+        margin-left:auto;
+        /* padding-left: 200px; */
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+    }
+    .ReadMore_btn{
+        padding: 15px 25px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: none;
+        color: darkgoldenrod;
+        margin-left: 30px;
+    }
+    
+    .ReadMore_btn:hover{
+    background-color: lightyellow;
+    color: orange;
+    }
+    
+    .WebComportImg1{
+        box-shadow: 3px 3px 25px rgb(55, 55, 55);
+        height: 340px;
+        width: 500px;
+        border: 2px solid black;
+    }
+    
+    .Web_descriptive{
+        display:inline-block;
+        padding: 30px;
+    }
+    .Web_descriptive1{
+        font-size: 50px;
+        margin-top:10px;
+        margin-left: 15px;
+    }
+    .Web_descriptive2{
+        font-size:20px;
+        padding:30px ;
+    }
+    .Contract{
+        /* display:flex; */
+        height:270px;
+        /* width:300px; */
+        margin-top:35px ;
+        /* padding-left:70px ; */
+    }
+   
+    .HomeHeader{
+        display: flex;
+        background-color:rgb(138, 155, 173) ;
+        margin-top: 20px;
+        padding-left: 2px;
+    }
+    .HomeHeader1{
+        margin-top: 10px;
+        /* height:400px; */
+        /* width:600px; */
+    
+    }
+    
+    .HomeHeaderImg1{
+        height: 370px;
+        width: 400px;
+        margin-left:30px ;
+        margin-top:30px ;
+        border:3px solid black;
+        box-shadow:3px 3px 25px rgb(55, 55, 55) ;
+    }
+    
+    .HomeHeader2{
+       margin-top: 50px ;
+    }
+    .SubDivHeader{
+        font-size: 50px;
+        display: flex;
+        margin-left: 150px;
+        color: black;
+        text-shadow: 5px 5px 15px whitesmoke;
+    }
+    .SubDivHeader1{
+        margin-left:10pxpx ;
+        font-size: 19px;
+        color: black;
+        
+    }
+    
+    .Latest_Projects{
+        display:flex;
+        flex-direction: column;
+        margin-top:40px ;
+        background-color: lightblue;
+    }
+    
+    .BtnSeeAll{
+       padding: 15px 25px;
+       margin:20px ;
+       margin-left:180px ;
+       margin-bottom:80px ;
+       border-radius: 15%;
+       font-size: 25px;
+       border:none ;
+       color:black;
+       background-color: mistyrose;
+}
+.BtnSeeAll:hover{
+    color: navy;
+    background-color: hotpink;
+}
+
+    }
+    
+    .LProject{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 10px 10px 20px black;
+        font-size:65px ;
+        /* margin-left:10px ; */
+        padding-top:30px ;
+        padding-left: 30px;
+    }
+    
+    .LProjectDiv1, .LProjectDiv2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Projectimg1, .Projectimg2, .Projectimg3, .Projectimg4{
+        width:390px ;
+        height:395px ;
+        /* padding: 50px; */
+        margin: 50px;
+        border: 2px solid gray;
+        box-shadow: 3px 3px 15px black;
+    }
+    
+
+
+
+
+@media only screen and (min-device-width:551px) and ( max-device-width: 750px ){
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .painting{
+        height: 750px;
+    }
+    
+    .HomeSlider{
+        z-index: -1 !important;
+    }
+    
+    .img1HomeSlider, .img2HomeSlider , .img3HomeSlider{
+        height: 800px;
+        width: 100%;
+    }
+    
+    .h1_Slider{
+        margin-bottom: 400px;
+    }
+    
+    
+    .h1_Slider1{
+
+        font-size: 57px;
+        color: darkblue;
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider1Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p1_sliderHome{
+        font-size: 55px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider2{
+
+        font-size: 55px;
+        color: rgb(158, 35, 92);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider2Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p2_sliderHome{
+        font-size: 55px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider3{
+
+        font-size: 38px;
+        color:rgb(53, 9, 215);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgb(233, 228, 232);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider3Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p3_sliderHome{
+        font-size: 55px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    p{
+        font-size:30px;
+    }
+    
+    .WebComport{
+        display: flex;
+        /* height: 400px; */
+        width: 100%;
+        background-color: orangered;
+        padding: 2px;
+        color:white ;
+        margin-left:auto;
+        /* padding-left: 200px; */
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .ReadMore_btn{
+        padding: 15px 25px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: none;
+        color: darkgoldenrod;
+        margin-left: 30px;
+    }
+    
+    .ReadMore_btn:hover{
+    background-color: lightyellow;
+    color: orange;
+    }
+    
+    .WebComportImg1{
+        box-shadow: 3px 3px 25px rgb(55, 55, 55);
+        height: 340px;
+        width: 500px;
+        border: 2px solid black;
+    }
+    
+    .Web_descriptive{
+        display:inline-block;
+        padding: 30px;
+    }
+    .Web_descriptive1{
+        font-size: 50px;
+        margin-top:10px;
+        margin-left: 15px;
+    }
+    .Web_descriptive2{
+        font-size:20px;
+        padding:30px ;
+    }
+    .Contract{
+        /* display:flex; */
+        height:270px;
+        /* width:300px; */
+        margin-top:35px ;
+        /* padding-left:70px ; */
+    }
+    
+    .HomeHeader{
+        display: flex;
+        background-color:rgb(138, 155, 173) ;
+        padding-left: 200px;
+        margin-top: 20px;
+    }
+    .HomeHeader1{
+        margin-top: 10px;
+        /* height:400px; */
+        /* width:600px; */
+    
+    }
+    
+    .HomeHeaderImg1{
+        height: 375px;
+        width: 360px;
+        margin-left:-165px ;
+        margin-top:30px ;
+        border:3px solid black;
+        box-shadow:3px 3px 25px rgb(55, 55, 55) ;
+    }
+    
+    .HomeHeader2{
+       margin-top: 50px ;
+    }
+    .SubDivHeader{
+        font-size: 50px;
+        display: flex;
+        margin-left: 150px;
+        color: black;
+        text-shadow: 5px 5px 15px whitesmoke;
+    }
+    .SubDivHeader1{
+        margin-left:10pxpx ;
+        font-size: 21px;
+        color: black;
+        
+    }
+    
+    .Latest_Projects{
+        display:flex;
+        flex-direction: column;
+        margin-top:40px ;
+        background-color: lightblue;
+    }
+    
+    .BtnSeeAll{
+       padding: 15px 25px;
+       margin:20px ;
+       margin-left:180px ;
+       margin-bottom:80px ;
+       border-radius: 15%;
+       font-size: 25px;
+       border:none ;
+       color:black;
+       background-color: mistyrose;
+}
+.BtnSeeAll:hover{
+    color: navy;
+    background-color: hotpink;
+}
+
+    }
+    
+    .LProject{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 10px 10px 20px black;
+        font-size:65px ;
+        /* margin-left:10px ; */
+        padding-top:30px ;
+        padding-left: 30px;
+    }
+    
+    .LProjectDiv1, .LProjectDiv2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Projectimg1, .Projectimg2, .Projectimg3, .Projectimg4{
+        width:390px ;
+        height:405px ;
+        /* padding: 50px; */
+        margin: 50px;
+        border: 2px solid gray;
+        box-shadow: 3px 3px 15px black;
+    }
+    
+
+
+
+
+@media only screen and (min-device-width:751px) and ( max-device-width: 1050px ){
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .painting{
+        height: 750px;
+    }
+    
+    .HomeSlider{
+        z-index: -1 !important;
+    }
+    
+    .img1HomeSlider, .img2HomeSlider , .img3HomeSlider{
+        height: 800px;
+        width: 100%;
+    }
+    
+    .h1_Slider{
+        margin-bottom: 400px;
+    }
+    
+    
+    .h1_Slider1{
+
+        font-size: 59px;
+        color: darkblue;
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding: 20px 0px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider1Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p1_sliderHome{
+        font-size: 55px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider2{
+
+        font-size: 50px;
+        color: rgb(158, 35, 92);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider2Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p2_sliderHome{
+        font-size: 55px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider3{
+
+        font-size: 40px;
+        color:rgb(53, 9, 215);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgb(233, 228, 232);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider3Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p3_sliderHome{
+        font-size: 55px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    p{
+        font-size:30px;
+    }
+    
+    .WebComport{
+        display: flex;
+        /* height: 400px; */
+        width: 100%;
+        background-color: orangered;
+        padding: 2px;
+        color:white ;
+        margin-left:auto;
+        /* padding-left: 200px; */
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .ReadMore_btn{
+        padding: 15px 25px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: none;
+        color: darkgoldenrod;
+        margin-left: 30px;
+    }
+    
+    .ReadMore_btn:hover{
+    background-color: lightyellow;
+    color: orange;
+    }
+    
+    .WebComportImg1{
+        box-shadow: 3px 3px 25px rgb(55, 55, 55);
+        height: 340px;
+        width: 500px;
+        border: 2px solid black;
+    }
+    
+    .Web_descriptive{
+        display:inline-block;
+        padding: 30px;
+    }
+    .Web_descriptive1{
+        font-size: 50px;
+        margin-top:10px;
+        margin-left: 15px;
+    }
+    .Web_descriptive2{
+        font-size:20px;
+        padding:30px ;
+    }
+    .Contract{
+        /* display:flex; */
+        height:270px;
+        /* width:300px; */
+        margin-top:35px ;
+        /* padding-left:70px ; */
+    }
+    
+    .HomeHeader{
+        display: flex;
+        background-color:rgb(138, 155, 173) ;
+        padding-left: 200px;
+        margin-top: 20px;
+    }
+    .HomeHeader1{
+        margin-top: 10px;
+        /* height:400px; */
+        /* width:600px; */
+    
+    }
+    
+    .HomeHeaderImg1{
+        height: 385px;
+        width: 365px;
+        margin-left:-184px ;
+        margin-top:30px ;
+        border:3px solid black;
+        box-shadow:3px 3px 25px rgb(55, 55, 55) ;
+    }
+    
+    .HomeHeader2{
+       margin-top: 50px ;
+    }
+    .SubDivHeader{
+        font-size: 50px;
+        display: flex;
+        margin-left: 150px;
+        color: black;
+        text-shadow: 5px 5px 15px whitesmoke;
+    }
+    .SubDivHeader1{
+        margin-left:10pxpx ;
+        font-size: 21px;
+        color: black;
+        
+    }
+    
+    .Latest_Projects{
+        display:flex;
+        flex-direction: column;
+        margin-top:40px ;
+        background-color: lightblue;
+    }
+    
+    .BtnSeeAll{
+       padding: 15px 25px;
+       margin:20px ;
+       margin-left:180px ;
+       margin-bottom:80px ;
+       border-radius: 15%;
+       font-size: 25px;
+       border:none ;
+       color:black;
+       background-color: mistyrose;
+}
+.BtnSeeAll:hover{
+    color: navy;
+    background-color: hotpink;
+}
+
+    }
+    
+    .LProject{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 10px 10px 20px black;
+        font-size:65px ;
+        /* margin-left:10px ; */
+        padding-top:30px ;
+        padding-left: 30px;
+    }
+    
+    .LProjectDiv1, .LProjectDiv2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Projectimg1, .Projectimg2, .Projectimg3, .Projectimg4{
+        width:390px ;
+        height:400px ;
+        /* padding: 50px; */
+        margin: 50px;
+        border: 2px solid gray;
+        box-shadow: 3px 3px 15px black;
+    }
+    
+
+
+
+
+
+@media only screen and (min-device-width:1051px) and ( max-device-width: 1750px ){
+
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .painting{
+        height: 750px;
+    }
+    
+    .HomeSlider{
+        z-index: -1 !important;
+    }
+    
+    .img1HomeSlider, .img2HomeSlider , .img3HomeSlider{
+        height: 800px;
+        width: 100%;
+    }
+    
+    .h1_Slider{
+        margin-bottom: 400px;
+    }
+    
+    
+    .h1_Slider1{
+
+        font-size: 63px;
+        color: darkblue;
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider1Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p1_sliderHome{
+        font-size: 55px;
+        animation-name: Slider1Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider2{
+
+        font-size: 55px;
+        color: rgb(158, 35, 92);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgba(255, 255, 255, 0.468);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider2Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p2_sliderHome{
+        font-size: 55px;
+        animation-name: Slider2Home;
+        animation-duration: 3s;
+    }
+    
+    .h1_Slider3{
+
+        font-size: 45px;
+        color:rgb(53, 9, 215);
+        text-shadow: 3px 3px 15px rgb(39, 37, 37);
+        background-color: rgb(233, 228, 232);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    
+    @keyframes Slider3Home {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .p3_sliderHome{
+        font-size: 55px;
+        animation-name: Slider3Home;
+        animation-duration: 3s;
+    }
+    p{
+        font-size:30px;
+    }
+    
+    .WebComport{
+        display: flex;
+        /* height: 400px; */
+        width: 100%;
+        background-color: orangered;
+        padding: 2px;
+        color:white ;
+        margin-left:auto;
+        /* padding-left: 200px; */
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .ReadMore_btn{
+        padding: 15px 25px;
+        border-radius: 15px;
+        font-size: 25px;
+        border: none;
+        color: darkgoldenrod;
+        margin-left: 30px;
+    }
+    
+    .ReadMore_btn:hover{
+    background-color: lightyellow;
+    color: orange;
+    }
+    
+    .WebComportImg1{
+        box-shadow: 3px 3px 25px rgb(55, 55, 55);
+        height: 340px;
+        width: 500px;
+        border: 2px solid black;
+    }
+    
+    .Web_descriptive{
+        display:inline-block;
+        padding: 30px;
+    }
+    .Web_descriptive1{
+        font-size: 50px;
+        margin-top:10px;
+        margin-left: 15px;
+    }
+    .Web_descriptive2{
+        font-size:20px;
+        padding:30px ;
+    }
+    .Contract{
+        /* display:flex; */
+        height:270px;
+        /* width:300px; */
+        margin-top:35px ;
+        /* padding-left:70px ; */
+    }
+    
+    .HomeHeader{
+        display: flex;
+        background-color:rgb(138, 155, 173) ;
+        padding-left: 15px;
+        margin-top: 20px;
+
+    }
+    .HomeHeader1{
+        margin-top: 10px;
+        /* height:400px; */
+        /* width:600px; */
+    
+    }
+    
+    .HomeHeaderImg1{
+        height: 375px;
+        width: 435px;
+        margin-left:30px ;
+        margin-top:30px ;
+        border:3px solid black;
+        box-shadow:3px 3px 25px rgb(55, 55, 55) ;
+    }
+    
+    .HomeHeader2{
+       margin-top: 50px ;
+    }
+    .SubDivHeader{
+        font-size: 50px;
+        display: flex;
+        margin-left: 150px;
+        color: black;
+        text-shadow: 5px 5px 15px whitesmoke;
+    }
+    .SubDivHeader1{
+        margin-left:10pxpx ;
+        font-size: 20px;
+        color: black;
+        
+    }
+    
+    .Latest_Projects{
+        display:flex;
+        flex-direction: column;
+        margin-top:40px ;
+        background-color: lightblue;
+    }
+    
+    .BtnSeeAll{
+       padding: 15px 25px;
+       margin:20px ;
+       margin-left:180px ;
+       margin-bottom:80px ;
+       border-radius: 15%;
+       font-size: 25px;
+       border:none ;
+       color:black;
+       background-color: mistyrose;
+}
+.BtnSeeAll:hover{
+    color: navy;
+    background-color: hotpink;
+}
+
+    }
+    
+    .LProject{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 10px 10px 20px black;
+        font-size:65px ;
+        /* margin-left:10px ; */
+        padding-top:30px ;
+        padding-left: 30px;
+    }
+    
+    .LProjectDiv1, .LProjectDiv2{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Projectimg1, .Projectimg2, .Projectimg3, .Projectimg4{
+        width:390px ;
+        height:450px ;
+        /* padding: 50px; */
+        margin: 50px;
+        border: 2px solid gray;
+        box-shadow: 3px 3px 15px black;
+    }    
+
+
